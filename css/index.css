@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-style: normal;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+#gttopbtn {
+    display: none;
+    position: fixed;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background-color: #CB96FF;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#gttopbtn:hover {
+    color: #000000;
+    background-color: #ECD9FF;
+}
