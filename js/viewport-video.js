@@ -22,7 +22,7 @@ spans.forEach(span => {
             // Set the src attribute to the iframe URL
             newIframe.src = iframeUrl;
 
-            newIframe.id = 'google-video';
+            newIframe.id = 'google-iframe';
 
             // Allow fullscreen for the iframe
             newIframe.allowFullscreen = true;
