@@ -1,4 +1,4 @@
-var delay = 5000
+var delay = 4000
 var curindex = 0
 
 var randomimages = new Array()
@@ -30,18 +30,6 @@ function rotateimage() {
     document.images.defaultimage.src = randomimages[curindex];
   };
 
-  img.onerror = function() {
-    console.error(`Failed to load image: ${randomimages[curindex]}`);
-
-    // 대체 이미지 배열
-    var placeholderImages = [
-"placeholder1.png",
-"placeholder2.png",
-"placeholder3.png"
-];
-    var randomIndex = Math.floor(Math.random() * placeholderImages.length);
-    document.images.defaultimage.src = placeholderImages[randomIndex];
-  };
 }
 
 setInterval("rotateimage()", delay);
